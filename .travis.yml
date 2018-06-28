@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - '9'
+  - '8'
+  - '6'
+
+before_script:
+  - npm install -g yarn npx
+  - yarn install --dev
+
+script:
+  - yarn test

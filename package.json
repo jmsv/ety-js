@@ -1,0 +1,32 @@
+{
+  "name": "ety",
+  "version": "0.0.0",
+  "description": "Node module to find the etymological origins of a word",
+  "main": "dist/ety.cjs.js",
+  "module": "dist/ety.esm.js",
+  "repository": "git@github.com:jmsv/ety-js.git",
+  "author": "James Vickery <dev@jamesvickery.net>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-babel": "^3.0.5",
+    "standard": "^11.0.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "npm run lint && npm run build && node test/test.js",
+    "lint": "npx standard"
+  },
+  "standard": {
+    "ignore": [
+      "dist/"
+    ]
+  },
+  "files": [
+    "dist"
+  ]
+}
