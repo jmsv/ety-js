@@ -10,7 +10,7 @@ describe('ety', function () {
 
     it('defaults language to eng', function () {
       var word = ety.getWord('omnibus')
-      expect(word.language).to.equal('eng')
+      expect(word.language.iso).to.equal('eng')
     })
   })
 })
