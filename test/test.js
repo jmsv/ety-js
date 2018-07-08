@@ -2,15 +2,17 @@ var expect = require('chai').expect
 var ety = require('../dist/ety.cjs')
 
 describe('ety', function () {
-  describe('getWord method', function () {
-    it('gets a word', function () {
-      var word = ety.getWord('potato')
-      expect(word.word).to.equal('potato')
-    })
+  describe('Word origins method', function () {
+    it('finds batata origin for potato', function () {
+      let batataFound = false
 
-    it('defaults language to eng', function () {
-      var word = ety.getWord('omnibus')
-      expect(word.language.iso).to.equal('eng')
+      ety.origins('potato').forEach(function (origin) {
+        if (origin.word === 'batata') {
+          batataFound = true
+        }
+      })
+
+      expect(batataFound).to.equal(true)
     })
   })
 })
