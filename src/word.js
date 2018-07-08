@@ -1,5 +1,6 @@
 import Language from './language'
 import { etyms } from './data'
+import { Object } from './polyfills'
 
 export default class Word {
   constructor (word, language = 'eng', isSource = true) {
