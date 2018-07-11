@@ -1,6 +1,7 @@
 import Word from './word.js'
+import Language from './language.js'
 
-export { Word }
+export { Word, Language }
 
 const getSourceWord = (word, wordLang) => {
   if (word instanceof Word) {

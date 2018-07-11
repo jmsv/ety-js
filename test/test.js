@@ -15,4 +15,14 @@ describe('ety', function () {
       expect(batataFound).to.equal(true)
     })
   })
+
+  describe('Language class', function () {
+    it('resolves language name from iso code', function () {
+      let langEng = new ety.Language('eng')
+      expect(langEng.name).to.equal('English')
+
+      let langLat = new ety.Language('lat')
+      expect(langLat.name).to.equal('Latin')
+    })
+  })
 })
