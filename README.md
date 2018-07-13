@@ -1,11 +1,15 @@
+### _UNDER DEVELOPMENT - NOT YET USABLE_
+
+---
+
 # ety-js
 
 Node module to find the etymological origins of a word (based on [jmsv/ety-python](http://github.com/jmsv/ety-python))
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Build Status](https://travis-ci.org/jmsv/ety-js.svg?branch=master)](https://travis-ci.org/jmsv/ety-js) [![Greenkeeper badge](https://badges.greenkeeper.io/jmsv/ety-js.svg)](https://greenkeeper.io/)
-
-## _UNDER DEVELOPMENT - NOT YET USABLE_
+[![Build Status](https://travis-ci.org/jmsv/ety-js.svg?branch=master)](https://travis-ci.org/jmsv/ety-js)
+[![Greenkeeper badge](https://badges.greenkeeper.io/jmsv/ety-js.svg)](https://greenkeeper.io/)
+[![install size](https://packagephobia.now.sh/badge?p=ety@0.0.0)](https://packagephobia.now.sh/result?p=ety@0.0.0)
 
 At the moment this repo is just for getting a node module up and running. This will use:
 
